@@ -1,0 +1,49 @@
+# .bashrc
+
+# User specific aliases and functions
+
+#常规操作
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias fn='find / -name'
+alias sae='ss -anpltu | egrep'
+
+#yum操作
+alias ys='yum search'
+alias yi='yum -y install'
+alias yca="yum clean all"
+alias yr="yum repolist"
+
+#git操作
+alias ga='git add'
+alias gi='git init'
+alias gl='git log'
+alias gcl='git clone'
+alias gs='git status'
+alias gc='git commit -m'
+alias gpom='git push -u origin master'
+
+#rpm操作
+alias ri='rpm -ivh'
+alias rU='rpm -Uvh'
+alias rq='rpm -q'
+
+#python操作
+alias p2i='pip install'
+alias p3i='pip3 install'
+alias dav='django-admin --version'
+alias dasp='django-admin startproject'
+alias p3msp='python3 manage.py startproject'
+alias p3mmmg='python3 manage.py makemigrations'
+alias p3mm='python3 manage.py migrate'
+alias p3mcsu='python3 manage.py createsuperuser'
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+lh(){
+    ls -lh $*
+}
