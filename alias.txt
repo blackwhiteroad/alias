@@ -9,6 +9,12 @@ alias mv='mv -i'
 alias fn='find / -name'
 alias sae='ss -anpltu | egrep'
 
+#系统服务操作
+alias sstst='systemctl start'
+alias sststus='systemctl status'
+alias sstrest='systemctl restart'
+alias sststop='systemctl stop'
+
 #yum操作
 alias ys='yum search'
 alias yi='yum -y install'
