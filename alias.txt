@@ -35,6 +35,21 @@ alias ri='rpm -ivh'
 alias rU='rpm -Uvh'
 alias rq='rpm -q'
 
+#docker操作
+alias di='docker images'
+alias dpull='docker pull'
+alias dpush='docker push'
+alias dps='docker ps'
+alias dpsa='docker ps -a'
+alias dip='docker import'
+alias dep='docker export'
+alias drit='docker run -it'
+alias deit='docker exec -it'
+alias ded='docker exec -d'
+alias dstop='docker stop'
+alias dstart='docker start'
+alias drestart='docker restart'
+
 #python操作
 alias p2i='pip install'
 alias p3i='pip3 install'
