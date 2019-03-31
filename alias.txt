@@ -7,6 +7,7 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias fn='find / -name'
+alias sa='ss -anpltu'
 alias sae='ss -anpltu | egrep'
 
 #系统服务操作
@@ -18,6 +19,7 @@ alias sststop='systemctl stop'
 #yum操作
 alias ys='yum search'
 alias yi='yum -y install'
+alias yrm='yum -y r'
 alias yca="yum clean all"
 alias yr="yum repolist"
 
@@ -34,6 +36,7 @@ alias gpom='git push -u origin master'
 alias ri='rpm -ivh'
 alias rU='rpm -Uvh'
 alias rq='rpm -q'
+alias rqa='rpm -qa'
 
 #docker操作
 alias di='docker images'
